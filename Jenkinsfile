@@ -31,7 +31,7 @@ pipeline {
 				dir("${WORKSPACE}/my-app") {
 					sh 'echo "Building Docker Image...."'
 					sh 'docker build -t rsaideekshith123/myjavaapp:${BUILD_NUMBER} .'
-					sh 'echo "Docker Image built successfully...."
+					sh 'echo "Docker Image built successfully...."'
                                 }
                         }
                 }
